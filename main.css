@@ -1,0 +1,164 @@
+body {
+	background-color: #525252;
+	margin: 0px;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	font-size: 11px;
+	color: #626477;
+	background-image:url(images/strip.jpg);
+	background-position:center;
+	background-repeat:repeat-y;
+}
+
+a {
+	color: #999999;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+p {
+	line-height: 20px;
+	text-indent: 15px;
+	color: #626477;
+	text-align: justify;
+}
+
+h1 {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	font-size: 100%;
+	color: #000000;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 100%;
+	font-weight: bold;
+	text-align: left;
+}
+
+img {
+	border: 0px;
+}
+
+#title {
+	background-position: center; 
+	background-repeat: repeat-y; 
+	margin: 0em; 
+	padding: 2px; 
+	height: 200px;
+	background-image: url(images/header.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+#title p {
+	font-variant: small-caps;
+	letter-spacing: 2px;
+}
+
+#title img {
+	border: none;
+}
+
+#container {
+	width: 645px;
+	margin: 0 auto 0 auto;
+	padding: 0 0 0 0;
+}
+
+#sidebar {
+	width: 200px;
+	float: right;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-left: 0px;
+}
+
+#sidebar h1 {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	text-align: left;
+	font-variant: small-caps;
+	font-size: 200%;
+	color: #626477;
+	border-bottom: 1px dashed #7d7d7d;
+}
+
+#sidebar p {
+	line-height: 20px;
+}
+
+#menu {
+	text-align: left;
+	border-left: 1px solid #7d7d7d;
+	padding-left: 10px;
+}
+
+#menu h1 {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	text-align: left;
+	font-size: 200%;
+	color: #626477;
+	border-bottom: 1px dashed #7d7d7d;
+}
+
+#menu a {
+	color: #999999;
+	background-position: right;
+	background-repeat: no-repeat;
+	padding-right: 10px;
+	line-height: 15px;
+	text-decoration: none;
+}
+
+#menu a:hover {
+	color: #cccccc;
+}
+
+#content {
+	margin-right: 220px;
+	margin-bottom: 0px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border: 0px;
+	color: #626477;
+}
+
+#content h1 {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	font-weight:bold;
+	font-variant: small-caps;
+	text-align: left;
+	font-size: 130%;
+	color: #626477;
+	border-bottom: 1px dashed #7d7d7d;
+	padding-top: 0px;
+}
+
+#content p {
+	line-height: 20px;
+	text-indent: 15px;
+	color: #626477;
+	text-align: justify;
+}
+
+#content table {
+	color: #626477;
+	padding-top: 5px;
+}
+
+#content th {
+	color: #626477;
+	padding-left: 5px;
+}
+
+#footer {
+	width: 642px;
+	margin: 0 auto 0 auto;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-align: center;
+	border-top: 1px solid #7d7d7d;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
